@@ -33,12 +33,17 @@ var myChart = new Chart(ctx, {
         scales: {
             yAxes: [{
                 ticks: {
-                    beginAtZero:true
+                    beginAtZero: true
                 }
             }]
         }
     }
 });
 
+// SideNav Button Initialization
+$(".button-collapse").sideNav();
+// SideNav Scrollbar Initialization
+var sideNavScrollbar = document.querySelector('.custom-scrollbar');
+Ps.initialize(sideNavScrollbar);
 
-    
+
