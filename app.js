@@ -51,8 +51,8 @@ app.post('/send', (req, res) => {
 
     // setup email data with unicode symbols
     let mailOptions = {
-        from: '"Portfolio website" <brandonmatthews@bmatthewsdev.com>', // sender address
-        to: 'brandonmatthews@bmatthewsdev.com', // list of receivers
+        from: '"Portfolio website" <brandon@bmatthewsdev.com>', // sender address
+        to: 'brandon@bmatthewsdev.com', // list of receivers
         subject: 'Node contact request', // Subject line
         text: 'Hello world?', // plain text body
         html: output // html body
