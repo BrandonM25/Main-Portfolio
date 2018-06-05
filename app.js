@@ -37,7 +37,7 @@ app.post('/send', (req, res) => {
     `;
 
     let transporter = nodemailer.createTransport({
-        host: '204.48.25.151',
+        host: 'email.bmatthewsdev.com',
         port: 587,
         secure: false, // true for 465, false for other ports
         auth: {
