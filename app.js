@@ -42,7 +42,7 @@ app.post('/send', (req, res) => {
         secure: true, // true for 465, false for other ports
         auth: {
             user: 'brandonmatthews@bmatthewsdev.com', // generated ethereal user
-            pass: 'bmatt12251982' // generated ethereal password
+            pass: 'Bmatt12251982' // generated ethereal password
         },
         tls: {
             rejectUnauthorized: false
