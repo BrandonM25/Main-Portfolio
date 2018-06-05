@@ -38,8 +38,8 @@ app.post('/send', (req, res) => {
 
     let transporter = nodemailer.createTransport({
         host: 'mail.bmatthewsdev.com',
-        port: 465,
-        secure: true, // true for 465, false for other ports
+        port: 587,
+        secure: false, // true for 465, false for other ports
         auth: {
             user: 'brandonmatthews@bmatthewsdev.com', // generated ethereal user
             pass: 'Bmatt12251982' // generated ethereal password
